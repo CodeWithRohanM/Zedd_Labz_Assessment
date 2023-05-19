@@ -5,6 +5,7 @@ import QuestionThree from "./Components/QuestionThree";
 import QuestionFive from "./Components/QuestionFive";
 import QuestionSix from "./Components/QuestionSix";
 import FunctionalComponent from "./Components/FunctionalComponent.tsx";
+import QuestionFour from "./Components/QuestionFour";
 
 const App = () => {
   return <>
@@ -37,6 +38,11 @@ const App = () => {
     <section className="flex flex-col w-screen h-screen bg-blue-400">
       <h1 className="text-5xl font-bold">Question 3</h1>
       <QuestionThree />
+    </section>
+
+    <section className="flex flex-col w-screen h-screen bg-blue-400">
+      <h1 className="text-5xl font-bold">Question 4</h1>
+      <QuestionFour />
     </section>
 
     <hr className="border border-black w-full"></hr>
