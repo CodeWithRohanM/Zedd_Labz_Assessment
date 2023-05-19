@@ -1,10 +1,8 @@
 import React, { useState, useEffect, useCallback, useContext } from "react";
 
 
-// Create a context
 const MyContext = React.createContext();
 
-// Example component using hooks
 const ExampleComponent = () => {
     const [count, setCount] = useState(0);
     const [text, setText] = useState('');
@@ -30,13 +28,12 @@ const ExampleComponent = () => {
         setCount((prevCount) => prevCount + 1);
     }, []);
 
-    // Accessing the context value
     const contextValue = useContext(MyContext);
 
     return <>
         <div className="flex flex-col gap-y-12 w-full h-full items-center justify-center text-3xl">
 
-            <div className="flex flex-col gap-y-4 bg-blue-200 rounded-md p-4 text-3xl text-center font-bold text-center">
+            <div className="flex flex-col gap-y-4 bg-blue-200 rounded-md p-4 text-3xl text-center font-bold">
                 <h1 className="">For This Task, I Have Used, UseState, UseEffect, UseCallback and UseContext Hook To Update The State Values.</h1>
                 <h1>
                     Context Value Field Is The Context Passed.
@@ -56,7 +53,6 @@ const ExampleComponent = () => {
     </>
 };
 
-// Usage of the context provider
 const QuestionThree = () => {
     return (
         <MyContext.Provider value="Hello from Context!">

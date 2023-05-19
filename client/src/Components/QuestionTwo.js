@@ -38,7 +38,7 @@ const QuestionTwo = () => {
             <div className="flex flex-col items-center gap-y-4 bg-blue-200 rounded-md p-4 text-3xl h-fit font-bold">
                 <h1>For this task, I have used useEffect() Hook to update the State Value Of Functional Component.</h1>
 
-                <h1>The Name is Stored In Redux Store.</h1>
+                <h1>Also, Redux Store is used to store the name entered.</h1>
 
             </div>
 

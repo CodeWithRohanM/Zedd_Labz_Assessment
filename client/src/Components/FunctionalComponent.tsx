@@ -20,7 +20,8 @@ const FunctionalComponent: React.FC<GreetingProps> = ({ name }) => {
 
         <div className="flex flex-row items-center justify-center gap-x-12 w-full h-full p-12">
             <div className="flex flex-col items-center gap-y-4 bg-blue-400 rounded-md p-4 h-fit">
-                <h1 className="text-3xl text-center font-bold">Functional Component With TypeScript Interface</h1>
+                <h1 className="text-3xl text-center font-bold">Functional Component With TypeScript </h1>
+                <h1 className="text-2xl text-center font-bold">Interface For Function Props</h1>
                 <h1 className="text-2xl">Hello, {updatedName}!</h1>
                 <input type="text" value={updatedName} onChange={handleNameChange} />
             </div>

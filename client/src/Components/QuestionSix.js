@@ -9,6 +9,7 @@ const QuestionSix = () => {
 
     return <>
         <div>
+        <h1 className="font-bold text-2xl">First Child Component Data Is Passed To Second Child Component.</h1>
             <ChildComponentA onDataChange={handleDataChange} />
             <br></br>
             <hr></hr>
